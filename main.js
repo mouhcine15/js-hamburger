@@ -1,11 +1,16 @@
-const btnOpen = document.getElementsByClassName("fa-bars");
-const btnClose = document.getElementsByClassName("fa-items");
-const hamburgerMenu = document.getElementsByClassName("hamburger-menu");
+const btn_open = document.querySelector(" .fa-bars");
+const btn_close = document.querySelector(" .fa-items");
+const hamburger = document.querySelector(" .hamburger-menu");
 
-element.addEventListener('click',
-    
-function toggleText() {
-    
-    
-}
+btn_open.addEventListener('click',
+    function(){
+        hamburger.classList.add("active");
+    }
+);
+
+btn_close.addEventListener('click',
+
+    function() {
+        hamburger.classList.remove("active");
+    }
 );
