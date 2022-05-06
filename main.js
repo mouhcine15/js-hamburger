@@ -1,6 +1,6 @@
-const btn_open = document.querySelector(" .fa-bars");
-const btn_close = document.querySelector(" .fa-items");
-const hamburger = document.querySelector(" .hamburger-menu");
+const btn_open = document.querySelector(".fa-bars");
+const btn_close = document.querySelector(".fa-items");
+const hamburger = document.querySelector(".hamburger-menu");
 
 btn_open.addEventListener('click',
     function(){
@@ -9,7 +9,6 @@ btn_open.addEventListener('click',
 );
 
 btn_close.addEventListener('click',
-
     function() {
         hamburger.classList.remove("active");
     }
